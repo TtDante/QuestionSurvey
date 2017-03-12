@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a13456.questionsurvey.Main12Activity">
+
+    <TextView
+        android:text="11,你认为培养和获得社会适应能力与工作能力的有效途径是"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView12" />
+
+    <CheckBox
+        android:text="参加学生社团活动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/checkBox11_1" />
+
+    <CheckBox
+        android:text="社会兼职"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11_2"
+        android:layout_alignLeft="@+id/checkBox11_2"
+        android:layout_alignStart="@+id/checkBox11_2"
+        android:layout_marginTop="51dp"
+        android:id="@+id/checkBox11_3" />
+
+    <CheckBox
+        android:text="其他"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11_3"
+        android:layout_alignLeft="@+id/checkBox11_3"
+        android:layout_alignStart="@+id/checkBox11_3"
+        android:layout_marginTop="44dp"
+        android:id="@+id/checkBox11_4" />
+
+    <CheckBox
+        android:text="参加学校组织的社会实践活动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/checkBox11_2"
+        android:layout_below="@+id/checkBox11_1"
+        android:layout_alignLeft="@+id/checkBox11_1"
+        android:layout_alignStart="@+id/checkBox11_1" />
+
+    <Button
+        android:text="上一个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/button11_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/checkBox11_4"
+        android:layout_alignEnd="@+id/checkBox11_4"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:text="下一个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11_2"
+        android:layout_alignBaseline="@+id/button11_1"
+        android:layout_alignBottom="@+id/button11_1"
+        android:layout_alignRight="@+id/checkBox11_2"
+        android:layout_alignEnd="@+id/checkBox11_2"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+</RelativeLayout>

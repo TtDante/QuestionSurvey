@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a13456.questionsurvey.Main3Activity">
+
+    <TextView
+        android:text="2,你来自？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView4"
+        android:textSize="30dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/RadioGroup3">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Radio2_1"
+            android:text="大城市"
+            android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/Radio2_2"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="农村"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton"
+        android:layout_marginTop="87dp"
+        android:id="@+id/Radio2_3"/>
+    </RadioGroup>
+
+    <Button
+        android:text="上一个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_marginBottom="22dp"
+        android:id="@+id/button2_1"
+         />
+
+    <Button
+        android:text="下一个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2_2"
+        android:layout_alignBaseline="@+id/button2_1"
+        android:layout_alignBottom="@+id/button2_1"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+       />
+</RelativeLayout>
